@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios - Vista Profesores</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .profesor {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        h2 {
+            background-color: #27ae60;
+            color: white;
+            padding: 15px;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #2ecc71;
+            color: white;
+            font-weight: bold;
+        }
+        .materia {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .semestre {
+            font-size: 0.85em;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .hora {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .bloque-vacio {
+            background-color: #f9f9f9;
+        }
+        .nav-profesores {
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .nav-profesores a {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .nav-profesores a:hover {
+            background-color: #2980b9;
+        }
+        @media print {
+            body { padding: 0; background: none; }
+            .profesor { box-shadow: none; page-break-after: always; }
+            .nav-profesores { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Horarios - Vista Profesores</h1>
+    <div class="nav-profesores" id="indice-profesores">
+        <!-- Se llena con JavaScript -->
+    </div>
+
+    <div class="profesor" id="prof-CHI-PEDRO">
+        <h2>CHI PEDRO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td><div class="materia">CÁLCULO DIFERENCIAL</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">CÁLCULO DIFERENCIAL</div><div class="semestre">Semestre 1</div></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td><div class="materia">CÁLCULO DIFERENCIAL</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">CÁLCULO DIFERENCIAL</div><div class="semestre">Semestre 1</div></td><td><div class="materia">CÁLCULO DIFERENCIAL</div><div class="semestre">Semestre 1</div></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-RUIZVELAZCO-DE-LA-GARZA-JUAN-ANTONIO">
+        <h2>RUIZVELAZCO DE LA GARZA JUAN ANTONIO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">DIBUJO ASISTIDO POR COMPUTADORA</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ESTATICA</div><div class="semestre">Semestre 3</div></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ESTATICA</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td><div class="materia">DIBUJO ASISTIDO POR COMPUTADORA</div><div class="semestre">Semestre 1</div></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td><div class="materia">DIBUJO ASISTIDO POR COMPUTADORA</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td><div class="materia">ESTATICA</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">DIBUJO ASISTIDO POR COMPUTADORA</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td><div class="materia">ESTATICA</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-CHAN-SILVERIO">
+        <h2>CHAN SILVERIO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td><div class="materia">ANÁLISIS DE FLUIDOS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">FUNDAMENTOS DE INVESTIGACION</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td><div class="materia">ANÁLISIS DE FLUIDOS</div><div class="semestre">Semestre 5</div></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">FUNDAMENTOS DE INVESTIGACION</div><div class="semestre">Semestre 1</div></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td><div class="materia">FUNDAMENTOS DE INVESTIGACION</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ANÁLISIS DE FLUIDOS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">FUNDAMENTOS DE INVESTIGACION</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ANÁLISIS DE FLUIDOS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-CHIMAL-Y-ALAMILLA-FLORENTINO">
+        <h2>CHIMAL Y ALAMILLA FLORENTINO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td><div class="materia">METROLOGIA Y NORMALIZACION</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">METROLOGIA Y NORMALIZACION</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">METROLOGIA Y NORMALIZACION</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td><div class="materia">METROLOGIA Y NORMALIZACION</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-VALENZUELA-ANA-MARÍA">
+        <h2>VALENZUELA ANA MARÍA</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td><div class="materia">QUIMICA</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">QUIMICA</div><div class="semestre">Semestre 1</div></td><td><div class="materia">QUIMICA</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">QUIMICA</div><div class="semestre">Semestre 1</div></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-RAMOS-HERNÁNDEZ-DOMINGO">
+        <h2>RAMOS HERNÁNDEZ DOMINGO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">TALLER DE ETICA</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td><div class="materia">TALLER DE ETICA</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td><div class="materia">TALLER DE ETICA</div><div class="semestre">Semestre 1</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">TALLER DE ETICA</div><div class="semestre">Semestre 1</div></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-ARIAS-DÍAZ-RAÚL">
+        <h2>ARIAS DÍAZ RAÚL</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">CÁLCULO VECTORIAL</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td><div class="materia">CÁLCULO VECTORIAL</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td><div class="materia">CÁLCULO VECTORIAL</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">CÁLCULO VECTORIAL</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">CÁLCULO VECTORIAL</div><div class="semestre">Semestre 3</div></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-FRANCO-ALMA-EROSA">
+        <h2>FRANCO ALMA EROSA</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">DESARROLLO SUSTENTABLE</div><div class="semestre">Semestre 3</div></td><td><div class="materia">DESARROLLO SUSTENTABLE</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td><div class="materia">DESARROLLO SUSTENTABLE</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td><div class="materia">DESARROLLO SUSTENTABLE</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">DESARROLLO SUSTENTABLE</div><div class="semestre">Semestre 3</div></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-MORALES-RAMÍREZ-CÉSAR">
+        <h2>MORALES RAMÍREZ CÉSAR</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ELECTROMAGNETISMO</div><div class="semestre">Semestre 3</div></td><td><div class="materia">MAQUINAS ELÉCTRICAS</div><div class="semestre">Semestre 5</div></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td><div class="materia">MAQUINAS ELÉCTRICAS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">MAQUINAS ELÉCTRICAS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ELECTROMAGNETISMO</div><div class="semestre">Semestre 3</div></td><td><div class="materia">MAQUINAS ELÉCTRICAS</div><div class="semestre">Semestre 5</div></td><td><div class="materia">ELECTROMAGNETISMO</div><div class="semestre">Semestre 3</div></td></tr><tr><td class='hora'>13:00-14:00</td><td><div class="materia">ELECTROMAGNETISMO</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td><div class="materia">ELECTROMAGNETISMO</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td><div class="materia">MAQUINAS ELÉCTRICAS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-ARROYO-RODRÍGUEZ-FRANCISCO">
+        <h2>ARROYO RODRÍGUEZ FRANCISCO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">METODOS NUMERICOS</div><div class="semestre">Semestre 3</div></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">METODOS NUMERICOS</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td><div class="materia">METODOS NUMERICOS</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">METODOS NUMERICOS</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-CUA-BIBIAN-MOISES">
+        <h2>CUA BIBIAN MOISES</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td><div class="materia">PROCESOS DE FABRICACION</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">PROCESOS DE FABRICACION</div><div class="semestre">Semestre 3</div></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">PROCESOS DE FABRICACION</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">PROCESOS DE FABRICACION</div><div class="semestre">Semestre 3</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-VERDE-GÓMEZ-JOSÉ-YSMAEL">
+        <h2>VERDE GÓMEZ JOSÉ YSMAEL</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="semestre">Semestre 5</div></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="semestre">Semestre 5</div></td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-GONZALEZ-ESPINOSA-RENAN-ANTONIO">
+        <h2>GONZALEZ ESPINOSA RENAN ANTONIO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">MECANISMOS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">MECANISMOS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">MECANISMOS</div><div class="semestre">Semestre 5</div></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td><div class="materia">MECANISMOS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td><div class="materia">MECANISMOS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-COUTIÑO-ASTHRYD-AHOLIBAMA">
+        <h2>COUTIÑO ASTHRYD AHOLIBAMA</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td><div class="materia">TALLER DE INVESTIGACIÓN I</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">TALLER DE INVESTIGACIÓN I</div><div class="semestre">Semestre 5</div></td><td><div class="materia">TALLER DE INVESTIGACIÓN I</div><div class="semestre">Semestre 5</div></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">TALLER DE INVESTIGACIÓN I</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-FAJARDO-PULIDO-GUSTAVO-ADOLFO">
+        <h2>FAJARDO PULIDO GUSTAVO ADOLFO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td><div class="materia">VIBRACIONES MECÁNICAS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">VIBRACIONES MECÁNICAS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td><div class="materia">VIBRACIONES MECÁNICAS</div><div class="semestre">Semestre 5</div></td><td class="bloque-vacio"></td><td><div class="materia">VIBRACIONES MECÁNICAS</div><div class="semestre">Semestre 5</div></td><td><div class="materia">VIBRACIONES MECÁNICAS</div><div class="semestre">Semestre 5</div></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-SAN-JUAN-FARFÁN-ÓSCAR">
+        <h2>SAN JUAN FARFÁN ÓSCAR</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="semestre">Semestre 7</div></td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="semestre">Semestre 7</div></td></tr><tr><td class='hora'>9:00-10:00</td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="semestre">Semestre 7</div></td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="semestre">Semestre 7</div></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-CERECERO-NATALE-LUIS-FIDEL">
+        <h2>CERECERO NATALE LUIS FIDEL</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td><div class="materia">CONTROL NEURODIFUSO APLICADO</div><div class="semestre">Semestre 9</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ROBOTICA</div><div class="semestre">Semestre 9</div></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td><div class="materia">MANTENIMIENTO</div><div class="semestre">Semestre 7</div></td><td><div class="materia">MANTENIMIENTO</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td><div class="materia">CONTROL NEURODIFUSO APLICADO</div><div class="semestre">Semestre 9</div></td><td class="bloque-vacio"></td><td><div class="materia">DINÁMICA DE SISTEMAS</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td><div class="materia">DINÁMICA DE SISTEMAS</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td><div class="materia">CONTROL NEURODIFUSO APLICADO</div><div class="semestre">Semestre 9</div></td><td><div class="materia">CONTROL NEURODIFUSO APLICADO</div><div class="semestre">Semestre 9</div></td><td><div class="materia">MANTENIMIENTO</div><div class="semestre">Semestre 7</div></td></tr><tr><td class='hora'>11:00-12:00</td><td><div class="materia">ROBOTICA</div><div class="semestre">Semestre 9</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td><div class="materia">ROBOTICA</div><div class="semestre">Semestre 9</div></td><td><div class="materia">DINÁMICA DE SISTEMAS</div><div class="semestre">Semestre 7</div></td><td><div class="materia">MANTENIMIENTO</div><div class="semestre">Semestre 7</div></td><td><div class="materia">DINÁMICA DE SISTEMAS</div><div class="semestre">Semestre 7</div></td></tr><tr><td class='hora'>13:00-14:00</td><td><div class="materia">MANTENIMIENTO</div><div class="semestre">Semestre 7</div></td><td><div class="materia">DINÁMICA DE SISTEMAS</div><div class="semestre">Semestre 7</div></td><td><div class="materia">ROBOTICA</div><div class="semestre">Semestre 9</div></td><td><div class="materia">ROBOTICA</div><div class="semestre">Semestre 9</div></td><td><div class="materia">CONTROL NEURODIFUSO APLICADO</div><div class="semestre">Semestre 9</div></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-CORAL-RODRIGO">
+        <h2>CORAL RODRIGO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td><div class="materia">MANUFACTURA AVANZADA</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">MANUFACTURA AVANZADA</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td><div class="materia">MANUFACTURA AVANZADA</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">MANUFACTURA AVANZADA</div><div class="semestre">Semestre 7</div></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td><div class="materia">MANUFACTURA AVANZADA</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-ORDAZ-CORAL-TIRSO-JUAN">
+        <h2>ORDAZ CORAL TIRSO JUAN</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td><div class="materia">MICROCONTROLADORES</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">MICROCONTROLADORES</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td><div class="materia">MICROCONTROLADORES</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">MICROCONTROLADORES</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">MICROCONTROLADORES</div><div class="semestre">Semestre 7</div></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-ESQUIVEL-BRICEÑO-CARLOS-ROBERTO">
+        <h2>ESQUIVEL BRICEÑO CARLOS ROBERTO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="semestre">Semestre 7</div></td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="semestre">Semestre 7</div></td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="semestre">Semestre 7</div></td><td class="bloque-vacio"></td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="semestre">Semestre 7</div></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="profesor" id="prof-CABALLERO-LUIS-HUMBERTO">
+        <h2>CABALLERO LUIS HUMBERTO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td class='hora'>7:00-8:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">PROCESAMIENTO DIGITAL DE SEÑALES II</div><div class="semestre">Semestre 9</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>8:00-9:00</td><td><div class="materia">PROCESAMIENTO DIGITAL DE SEÑALES II</div><div class="semestre">Semestre 9</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">PROCESAMIENTO DIGITAL DE SEÑALES II</div><div class="semestre">Semestre 9</div></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>9:00-10:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">PROCESAMIENTO DIGITAL DE SEÑALES II</div><div class="semestre">Semestre 9</div></td><td><div class="materia">PROCESAMIENTO DIGITAL DE SEÑALES II</div><div class="semestre">Semestre 9</div></td></tr><tr><td class='hora'>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td class='hora'>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+<script>
+    // Crear índice de profesores
+    const profesores = document.querySelectorAll('.profesor');
+    const indice = document.getElementById('indice-profesores');
+    
+    profesores.forEach(prof => {
+        const nombre = prof.querySelector('h2').textContent;
+        const id = prof.id;
+        const link = document.createElement('a');
+        link.href = '#' + id;
+        link.textContent = nombre;
+        indice.appendChild(link);
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario Escolar Generado</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .semestre {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        h2 {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+        .materia {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 4px;
+        }
+        .profesor {
+            font-size: 0.85em;
+            color: #555;
+            font-style: italic;
+        }
+        .hora {
+            font-size: 0.8em;
+            color: #7f8c8d;
+        }
+        .bloque-vacio {
+            background-color: #f9f9f9;
+        }
+        @media print {
+            body { padding: 0; background: none; }
+            .semestre { box-shadow: none; page-break-after: always; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="semestre">
+        <h2>Semestre 1</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td>7:00-8:00</td><td><div class="materia">METROLOGIA Y NORMALIZACION</div><div class="profesor">CHIMAL Y ALAMILLA FLORENTINO</div></td><td><div class="materia">CÁLCULO DIFERENCIAL</div><div class="profesor">CHI PEDRO</div></td><td class="bloque-vacio"></td><td><div class="materia">TALLER DE ETICA</div><div class="profesor">RAMOS HERNÁNDEZ DOMINGO</div></td><td class="bloque-vacio"></td></tr><tr><td>8:00-9:00</td><td><div class="materia">TALLER DE ETICA</div><div class="profesor">RAMOS HERNÁNDEZ DOMINGO</div></td><td class="bloque-vacio"></td><td><div class="materia">FUNDAMENTOS DE INVESTIGACION</div><div class="profesor">CHAN SILVERIO</div></td><td><div class="materia">DIBUJO ASISTIDO POR COMPUTADORA</div><div class="profesor">RUIZVELAZCO DE LA GARZA JUAN ANTONIO</div></td><td><div class="materia">CÁLCULO DIFERENCIAL</div><div class="profesor">CHI PEDRO</div></td></tr><tr><td>9:00-10:00</td><td class="bloque-vacio"></td><td><div class="materia">QUIMICA</div><div class="profesor">VALENZUELA ANA MARÍA</div></td><td class="bloque-vacio"></td><td><div class="materia">METROLOGIA Y NORMALIZACION</div><div class="profesor">CHIMAL Y ALAMILLA FLORENTINO</div></td><td><div class="materia">FUNDAMENTOS DE INVESTIGACION</div><div class="profesor">CHAN SILVERIO</div></td></tr><tr><td>10:00-11:00</td><td><div class="materia">CÁLCULO DIFERENCIAL</div><div class="profesor">CHI PEDRO</div></td><td><div class="materia">TALLER DE ETICA</div><div class="profesor">RAMOS HERNÁNDEZ DOMINGO</div></td><td><div class="materia">QUIMICA</div><div class="profesor">VALENZUELA ANA MARÍA</div></td><td><div class="materia">QUIMICA</div><div class="profesor">VALENZUELA ANA MARÍA</div></td><td><div class="materia">DIBUJO ASISTIDO POR COMPUTADORA</div><div class="profesor">RUIZVELAZCO DE LA GARZA JUAN ANTONIO</div></td></tr><tr><td>11:00-12:00</td><td><div class="materia">FUNDAMENTOS DE INVESTIGACION</div><div class="profesor">CHAN SILVERIO</div></td><td><div class="materia">DIBUJO ASISTIDO POR COMPUTADORA</div><div class="profesor">RUIZVELAZCO DE LA GARZA JUAN ANTONIO</div></td><td><div class="materia">METROLOGIA Y NORMALIZACION</div><div class="profesor">CHIMAL Y ALAMILLA FLORENTINO</div></td><td><div class="materia">CÁLCULO DIFERENCIAL</div><div class="profesor">CHI PEDRO</div></td><td><div class="materia">CÁLCULO DIFERENCIAL</div><div class="profesor">CHI PEDRO</div></td></tr><tr><td>12:00-13:00</td><td class="bloque-vacio"></td><td><div class="materia">METROLOGIA Y NORMALIZACION</div><div class="profesor">CHIMAL Y ALAMILLA FLORENTINO</div></td><td><div class="materia">DIBUJO ASISTIDO POR COMPUTADORA</div><div class="profesor">RUIZVELAZCO DE LA GARZA JUAN ANTONIO</div></td><td class="bloque-vacio"></td><td><div class="materia">TALLER DE ETICA</div><div class="profesor">RAMOS HERNÁNDEZ DOMINGO</div></td></tr><tr><td>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">FUNDAMENTOS DE INVESTIGACION</div><div class="profesor">CHAN SILVERIO</div></td><td><div class="materia">QUIMICA</div><div class="profesor">VALENZUELA ANA MARÍA</div></td></tr><tr><td>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="semestre">
+        <h2>Semestre 3</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td>7:00-8:00</td><td><div class="materia">PROCESOS DE FABRICACION</div><div class="profesor">CUA BIBIAN MOISES</div></td><td class="bloque-vacio"></td><td><div class="materia">CÁLCULO VECTORIAL</div><div class="profesor">ARIAS DÍAZ RAÚL</div></td><td><div class="materia">ELECTROMAGNETISMO</div><div class="profesor">MORALES RAMÍREZ CÉSAR</div></td><td><div class="materia">METODOS NUMERICOS</div><div class="profesor">ARROYO RODRÍGUEZ FRANCISCO</div></td></tr><tr><td>8:00-9:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">DESARROLLO SUSTENTABLE</div><div class="profesor">FRANCO ALMA EROSA</div></td><td><div class="materia">DESARROLLO SUSTENTABLE</div><div class="profesor">FRANCO ALMA EROSA</div></td><td><div class="materia">PROCESOS DE FABRICACION</div><div class="profesor">CUA BIBIAN MOISES</div></td></tr><tr><td>9:00-10:00</td><td><div class="materia">CÁLCULO VECTORIAL</div><div class="profesor">ARIAS DÍAZ RAÚL</div></td><td class="bloque-vacio"></td><td><div class="materia">METODOS NUMERICOS</div><div class="profesor">ARROYO RODRÍGUEZ FRANCISCO</div></td><td><div class="materia">PROCESOS DE FABRICACION</div><div class="profesor">CUA BIBIAN MOISES</div></td><td><div class="materia">ESTATICA</div><div class="profesor">RUIZVELAZCO DE LA GARZA JUAN ANTONIO</div></td></tr><tr><td>10:00-11:00</td><td><div class="materia">METODOS NUMERICOS</div><div class="profesor">ARROYO RODRÍGUEZ FRANCISCO</div></td><td><div class="materia">DESARROLLO SUSTENTABLE</div><div class="profesor">FRANCO ALMA EROSA</div></td><td><div class="materia">ESTATICA</div><div class="profesor">RUIZVELAZCO DE LA GARZA JUAN ANTONIO</div></td><td><div class="materia">METODOS NUMERICOS</div><div class="profesor">ARROYO RODRÍGUEZ FRANCISCO</div></td><td class="bloque-vacio"></td></tr><tr><td>11:00-12:00</td><td><div class="materia">DESARROLLO SUSTENTABLE</div><div class="profesor">FRANCO ALMA EROSA</div></td><td><div class="materia">CÁLCULO VECTORIAL</div><div class="profesor">ARIAS DÍAZ RAÚL</div></td><td><div class="materia">PROCESOS DE FABRICACION</div><div class="profesor">CUA BIBIAN MOISES</div></td><td><div class="materia">ESTATICA</div><div class="profesor">RUIZVELAZCO DE LA GARZA JUAN ANTONIO</div></td><td><div class="materia">DESARROLLO SUSTENTABLE</div><div class="profesor">FRANCO ALMA EROSA</div></td></tr><tr><td>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ELECTROMAGNETISMO</div><div class="profesor">MORALES RAMÍREZ CÉSAR</div></td><td class="bloque-vacio"></td><td><div class="materia">ELECTROMAGNETISMO</div><div class="profesor">MORALES RAMÍREZ CÉSAR</div></td></tr><tr><td>13:00-14:00</td><td><div class="materia">ELECTROMAGNETISMO</div><div class="profesor">MORALES RAMÍREZ CÉSAR</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">CÁLCULO VECTORIAL</div><div class="profesor">ARIAS DÍAZ RAÚL</div></td><td class="bloque-vacio"></td></tr><tr><td>14:00-15:00</td><td class="bloque-vacio"></td><td><div class="materia">ELECTROMAGNETISMO</div><div class="profesor">MORALES RAMÍREZ CÉSAR</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">CÁLCULO VECTORIAL</div><div class="profesor">ARIAS DÍAZ RAÚL</div></td></tr><tr><td>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>17:00-18:00</td><td class="bloque-vacio"></td><td><div class="materia">ESTATICA</div><div class="profesor">RUIZVELAZCO DE LA GARZA JUAN ANTONIO</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="semestre">
+        <h2>Semestre 5</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td>7:00-8:00</td><td><div class="materia">ANÁLISIS DE FLUIDOS</div><div class="profesor">CHAN SILVERIO</div></td><td class="bloque-vacio"></td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="profesor">VERDE GÓMEZ JOSÉ YSMAEL</div></td><td><div class="materia">MECANISMOS</div><div class="profesor">GONZALEZ ESPINOSA RENAN ANTONIO</div></td><td><div class="materia">MAQUINAS ELÉCTRICAS</div><div class="profesor">MORALES RAMÍREZ CÉSAR</div></td></tr><tr><td>8:00-9:00</td><td><div class="materia">VIBRACIONES MECÁNICAS</div><div class="profesor">FAJARDO PULIDO GUSTAVO ADOLFO</div></td><td class="bloque-vacio"></td><td><div class="materia">MECANISMOS</div><div class="profesor">GONZALEZ ESPINOSA RENAN ANTONIO</div></td><td class="bloque-vacio"></td><td><div class="materia">ANÁLISIS DE FLUIDOS</div><div class="profesor">CHAN SILVERIO</div></td></tr><tr><td>9:00-10:00</td><td><div class="materia">TALLER DE INVESTIGACIÓN I</div><div class="profesor">COUTIÑO ASTHRYD AHOLIBAMA</div></td><td class="bloque-vacio"></td><td><div class="materia">VIBRACIONES MECÁNICAS</div><div class="profesor">FAJARDO PULIDO GUSTAVO ADOLFO</div></td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="profesor">VERDE GÓMEZ JOSÉ YSMAEL</div></td><td><div class="materia">MECANISMOS</div><div class="profesor">GONZALEZ ESPINOSA RENAN ANTONIO</div></td></tr><tr><td>10:00-11:00</td><td><div class="materia">MAQUINAS ELÉCTRICAS</div><div class="profesor">MORALES RAMÍREZ CÉSAR</div></td><td><div class="materia">MECANISMOS</div><div class="profesor">GONZALEZ ESPINOSA RENAN ANTONIO</div></td><td class="bloque-vacio"></td><td><div class="materia">TALLER DE INVESTIGACIÓN I</div><div class="profesor">COUTIÑO ASTHRYD AHOLIBAMA</div></td><td><div class="materia">TALLER DE INVESTIGACIÓN I</div><div class="profesor">COUTIÑO ASTHRYD AHOLIBAMA</div></td></tr><tr><td>11:00-12:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">MAQUINAS ELÉCTRICAS</div><div class="profesor">MORALES RAMÍREZ CÉSAR</div></td><td><div class="materia">ANÁLISIS DE FLUIDOS</div><div class="profesor">CHAN SILVERIO</div></td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="profesor">VERDE GÓMEZ JOSÉ YSMAEL</div></td></tr><tr><td>12:00-13:00</td><td><div class="materia">MECANISMOS</div><div class="profesor">GONZALEZ ESPINOSA RENAN ANTONIO</div></td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="profesor">VERDE GÓMEZ JOSÉ YSMAEL</div></td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="profesor">VERDE GÓMEZ JOSÉ YSMAEL</div></td><td><div class="materia">MAQUINAS ELÉCTRICAS</div><div class="profesor">MORALES RAMÍREZ CÉSAR</div></td><td class="bloque-vacio"></td></tr><tr><td>13:00-14:00</td><td><div class="materia">ELECTRÓNICA ANALÓGICA</div><div class="profesor">VERDE GÓMEZ JOSÉ YSMAEL</div></td><td><div class="materia">VIBRACIONES MECÁNICAS</div><div class="profesor">FAJARDO PULIDO GUSTAVO ADOLFO</div></td><td><div class="materia">TALLER DE INVESTIGACIÓN I</div><div class="profesor">COUTIÑO ASTHRYD AHOLIBAMA</div></td><td><div class="materia">VIBRACIONES MECÁNICAS</div><div class="profesor">FAJARDO PULIDO GUSTAVO ADOLFO</div></td><td><div class="materia">VIBRACIONES MECÁNICAS</div><div class="profesor">FAJARDO PULIDO GUSTAVO ADOLFO</div></td></tr><tr><td>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ANÁLISIS DE FLUIDOS</div><div class="profesor">CHAN SILVERIO</div></td><td class="bloque-vacio"></td></tr><tr><td>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>17:00-18:00</td><td class="bloque-vacio"></td><td><div class="materia">MAQUINAS ELÉCTRICAS</div><div class="profesor">MORALES RAMÍREZ CÉSAR</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="semestre">
+        <h2>Semestre 7</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td>7:00-8:00</td><td><div class="materia">MANUFACTURA AVANZADA</div><div class="profesor">CORAL RODRIGO</div></td><td><div class="materia">MICROCONTROLADORES</div><div class="profesor">ORDAZ CORAL TIRSO JUAN</div></td><td class="bloque-vacio"></td><td><div class="materia">MANUFACTURA AVANZADA</div><div class="profesor">CORAL RODRIGO</div></td><td class="bloque-vacio"></td></tr><tr><td>8:00-9:00</td><td class="bloque-vacio"></td><td><div class="materia">MANTENIMIENTO</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td><div class="materia">MANTENIMIENTO</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="profesor">SAN JUAN FARFÁN ÓSCAR</div></td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="profesor">SAN JUAN FARFÁN ÓSCAR</div></td></tr><tr><td>9:00-10:00</td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="profesor">SAN JUAN FARFÁN ÓSCAR</div></td><td><div class="materia">MANUFACTURA AVANZADA</div><div class="profesor">CORAL RODRIGO</div></td><td><div class="materia">MICROCONTROLADORES</div><div class="profesor">ORDAZ CORAL TIRSO JUAN</div></td><td><div class="materia">DINÁMICA DE SISTEMAS</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td><div class="materia">MANUFACTURA AVANZADA</div><div class="profesor">CORAL RODRIGO</div></td></tr><tr><td>10:00-11:00</td><td><div class="materia">DINÁMICA DE SISTEMAS</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="profesor">SAN JUAN FARFÁN ÓSCAR</div></td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="profesor">SAN JUAN FARFÁN ÓSCAR</div></td><td class="bloque-vacio"></td><td><div class="materia">MANTENIMIENTO</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td></tr><tr><td>11:00-12:00</td><td><div class="materia">MICROCONTROLADORES</div><div class="profesor">ORDAZ CORAL TIRSO JUAN</div></td><td><div class="materia">MANUFACTURA AVANZADA</div><div class="profesor">CORAL RODRIGO</div></td><td class="bloque-vacio"></td><td><div class="materia">MICROCONTROLADORES</div><div class="profesor">ORDAZ CORAL TIRSO JUAN</div></td><td><div class="materia">CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS</div><div class="profesor">SAN JUAN FARFÁN ÓSCAR</div></td></tr><tr><td>12:00-13:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">DINÁMICA DE SISTEMAS</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td><div class="materia">MANTENIMIENTO</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td><div class="materia">DINÁMICA DE SISTEMAS</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td></tr><tr><td>13:00-14:00</td><td><div class="materia">MANTENIMIENTO</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td><div class="materia">DINÁMICA DE SISTEMAS</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td class="bloque-vacio"></td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="profesor">ESQUIVEL BRICEÑO CARLOS ROBERTO</div></td><td><div class="materia">MICROCONTROLADORES</div><div class="profesor">ORDAZ CORAL TIRSO JUAN</div></td></tr><tr><td>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="profesor">ESQUIVEL BRICEÑO CARLOS ROBERTO</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>17:00-18:00</td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="profesor">ESQUIVEL BRICEÑO CARLOS ROBERTO</div></td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="profesor">ESQUIVEL BRICEÑO CARLOS ROBERTO</div></td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="profesor">ESQUIVEL BRICEÑO CARLOS ROBERTO</div></td><td class="bloque-vacio"></td><td><div class="materia">PROGRAMACION AVANZADA</div><div class="profesor">ESQUIVEL BRICEÑO CARLOS ROBERTO</div></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="semestre">
+        <h2>Semestre 9</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td>7:00-8:00</td><td><div class="materia">CONTROL NEURODIFUSO APLICADO</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td class="bloque-vacio"></td><td><div class="materia">PROCESAMIENTO DIGITAL DE SEÑALES II</div><div class="profesor">CABALLERO LUIS HUMBERTO</div></td><td class="bloque-vacio"></td><td><div class="materia">ROBOTICA</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td></tr><tr><td>8:00-9:00</td><td><div class="materia">PROCESAMIENTO DIGITAL DE SEÑALES II</div><div class="profesor">CABALLERO LUIS HUMBERTO</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">PROCESAMIENTO DIGITAL DE SEÑALES II</div><div class="profesor">CABALLERO LUIS HUMBERTO</div></td><td class="bloque-vacio"></td></tr><tr><td>9:00-10:00</td><td class="bloque-vacio"></td><td><div class="materia">CONTROL NEURODIFUSO APLICADO</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td class="bloque-vacio"></td><td><div class="materia">PROCESAMIENTO DIGITAL DE SEÑALES II</div><div class="profesor">CABALLERO LUIS HUMBERTO</div></td><td><div class="materia">PROCESAMIENTO DIGITAL DE SEÑALES II</div><div class="profesor">CABALLERO LUIS HUMBERTO</div></td></tr><tr><td>10:00-11:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">CONTROL NEURODIFUSO APLICADO</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td><div class="materia">CONTROL NEURODIFUSO APLICADO</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td class="bloque-vacio"></td></tr><tr><td>11:00-12:00</td><td><div class="materia">ROBOTICA</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>12:00-13:00</td><td class="bloque-vacio"></td><td><div class="materia">ROBOTICA</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>13:00-14:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td><div class="materia">ROBOTICA</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td><div class="materia">ROBOTICA</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td><td><div class="materia">CONTROL NEURODIFUSO APLICADO</div><div class="profesor">CERECERO NATALE LUIS FIDEL</div></td></tr><tr><td>14:00-15:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>15:00-16:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>16:00-17:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr><tr><td>17:00-18:00</td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td><td class="bloque-vacio"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

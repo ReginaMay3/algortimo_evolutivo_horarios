@@ -1,0 +1,755 @@
+{
+  "Semestre 1": {
+    "semestre": 1,
+    "materias": [
+      {
+        "nombre": "CÁLCULO DIFERENCIAL",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "CHI PEDRO",
+        "horarios": [
+          {
+            "dia": "Viernes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "11:00-12:00"
+          }
+        ]
+      },
+      {
+        "nombre": "DIBUJO ASISTIDO POR COMPUTADORA",
+        "horas_semana": 4,
+        "horas_asignadas": 4,
+        "profesor": "RUIZVELAZCO DE LA GARZA JUAN ANTONIO",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "12:00-13:00"
+          }
+        ]
+      },
+      {
+        "nombre": "FUNDAMENTOS DE INVESTIGACION",
+        "horas_semana": 4,
+        "horas_asignadas": 4,
+        "profesor": "CHAN SILVERIO",
+        "horarios": [
+          {
+            "dia": "Lunes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "9:00-10:00"
+          }
+        ]
+      },
+      {
+        "nombre": "METROLOGIA Y NORMALIZACION",
+        "horas_semana": 4,
+        "horas_asignadas": 4,
+        "profesor": "CHIMAL Y ALAMILLA FLORENTINO",
+        "horarios": [
+          {
+            "dia": "Martes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "9:00-10:00"
+          }
+        ]
+      },
+      {
+        "nombre": "QUIMICA",
+        "horas_semana": 4,
+        "horas_asignadas": 4,
+        "profesor": "VALENZUELA ANA MARÍA",
+        "horarios": [
+          {
+            "dia": "Martes",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "13:00-14:00"
+          }
+        ]
+      },
+      {
+        "nombre": "TALLER DE ETICA",
+        "horas_semana": 4,
+        "horas_asignadas": 4,
+        "profesor": "RAMOS HERNÁNDEZ DOMINGO",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "8:00-9:00"
+          }
+        ]
+      }
+    ]
+  },
+  "Semestre 3": {
+    "semestre": 3,
+    "materias": [
+      {
+        "nombre": "CÁLCULO VECTORIAL",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "ARIAS DÍAZ RAÚL",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "14:00-15:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "11:00-12:00"
+          }
+        ]
+      },
+      {
+        "nombre": "DESARROLLO SUSTENTABLE",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "FRANCO ALMA EROSA",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "11:00-12:00"
+          }
+        ]
+      },
+      {
+        "nombre": "ELECTROMAGNETISMO",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "MORALES RAMÍREZ CÉSAR",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "14:00-15:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "13:00-14:00"
+          }
+        ]
+      },
+      {
+        "nombre": "ESTATICA",
+        "horas_semana": 4,
+        "horas_asignadas": 4,
+        "profesor": "RUIZVELAZCO DE LA GARZA JUAN ANTONIO",
+        "horarios": [
+          {
+            "dia": "Martes",
+            "hora": "17:00-18:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "11:00-12:00"
+          }
+        ]
+      },
+      {
+        "nombre": "METODOS NUMERICOS",
+        "horas_semana": 4,
+        "horas_asignadas": 4,
+        "profesor": "ARROYO RODRÍGUEZ FRANCISCO",
+        "horarios": [
+          {
+            "dia": "Miércoles",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "10:00-11:00"
+          }
+        ]
+      },
+      {
+        "nombre": "PROCESOS DE FABRICACION",
+        "horas_semana": 4,
+        "horas_asignadas": 4,
+        "profesor": "CUA BIBIAN MOISES",
+        "horarios": [
+          {
+            "dia": "Miércoles",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "7:00-8:00"
+          }
+        ]
+      }
+    ]
+  },
+  "Semestre 5": {
+    "semestre": 5,
+    "materias": [
+      {
+        "nombre": "ANÁLISIS DE FLUIDOS",
+        "horas_semana": 4,
+        "horas_asignadas": 4,
+        "profesor": "CHAN SILVERIO",
+        "horarios": [
+          {
+            "dia": "Lunes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "14:00-15:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "11:00-12:00"
+          }
+        ]
+      },
+      {
+        "nombre": "ELECTRÓNICA ANALÓGICA",
+        "horas_semana": 6,
+        "horas_asignadas": 6,
+        "profesor": "VERDE GÓMEZ JOSÉ YSMAEL",
+        "horarios": [
+          {
+            "dia": "Lunes",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "9:00-10:00"
+          }
+        ]
+      },
+      {
+        "nombre": "MAQUINAS ELÉCTRICAS",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "MORALES RAMÍREZ CÉSAR",
+        "horarios": [
+          {
+            "dia": "Lunes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "17:00-18:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "12:00-13:00"
+          }
+        ]
+      },
+      {
+        "nombre": "MECANISMOS",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "GONZALEZ ESPINOSA RENAN ANTONIO",
+        "horarios": [
+          {
+            "dia": "Miércoles",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "7:00-8:00"
+          }
+        ]
+      },
+      {
+        "nombre": "TALLER DE INVESTIGACIÓN I",
+        "horas_semana": 4,
+        "horas_asignadas": 4,
+        "profesor": "COUTIÑO ASTHRYD AHOLIBAMA",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "13:00-14:00"
+          }
+        ]
+      },
+      {
+        "nombre": "VIBRACIONES MECÁNICAS",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "FAJARDO PULIDO GUSTAVO ADOLFO",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "13:00-14:00"
+          }
+        ]
+      }
+    ]
+  },
+  "Semestre 7": {
+    "semestre": 7,
+    "materias": [
+      {
+        "nombre": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+        "horas_semana": 6,
+        "horas_asignadas": 6,
+        "profesor": "SAN JUAN FARFÁN ÓSCAR",
+        "horarios": [
+          {
+            "dia": "Viernes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "8:00-9:00"
+          }
+        ]
+      },
+      {
+        "nombre": "DINÁMICA DE SISTEMAS",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "CERECERO NATALE LUIS FIDEL",
+        "horarios": [
+          {
+            "dia": "Viernes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "13:00-14:00"
+          }
+        ]
+      },
+      {
+        "nombre": "MANTENIMIENTO",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "CERECERO NATALE LUIS FIDEL",
+        "horarios": [
+          {
+            "dia": "Lunes",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "8:00-9:00"
+          }
+        ]
+      },
+      {
+        "nombre": "MANUFACTURA AVANZADA",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "CORAL RODRIGO",
+        "horarios": [
+          {
+            "dia": "Martes",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "7:00-8:00"
+          }
+        ]
+      },
+      {
+        "nombre": "MICROCONTROLADORES",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "ORDAZ CORAL TIRSO JUAN",
+        "horarios": [
+          {
+            "dia": "Miércoles",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "11:00-12:00"
+          }
+        ]
+      },
+      {
+        "nombre": "PROGRAMACION AVANZADA",
+        "horas_semana": 6,
+        "horas_asignadas": 6,
+        "profesor": "ESQUIVEL BRICEÑO CARLOS ROBERTO",
+        "horarios": [
+          {
+            "dia": "Miércoles",
+            "hora": "17:00-18:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "17:00-18:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "17:00-18:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "17:00-18:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "14:00-15:00"
+          }
+        ]
+      }
+    ]
+  },
+  "Semestre 9": {
+    "semestre": 9,
+    "materias": [
+      {
+        "nombre": "CONTROL NEURODIFUSO APLICADO",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "CERECERO NATALE LUIS FIDEL",
+        "horarios": [
+          {
+            "dia": "Lunes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "10:00-11:00"
+          }
+        ]
+      },
+      {
+        "nombre": "PROCESAMIENTO DIGITAL DE SEÑALES II",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "CABALLERO LUIS HUMBERTO",
+        "horarios": [
+          {
+            "dia": "Miércoles",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "9:00-10:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "9:00-10:00"
+          }
+        ]
+      },
+      {
+        "nombre": "ROBOTICA",
+        "horas_semana": 5,
+        "horas_asignadas": 5,
+        "profesor": "CERECERO NATALE LUIS FIDEL",
+        "horarios": [
+          {
+            "dia": "Lunes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "13:00-14:00"
+          }
+        ]
+      }
+    ]
+  }
+}

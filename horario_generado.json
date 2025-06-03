@@ -1,0 +1,417 @@
+{
+  "Semestre 3": {
+    "semestre": 3,
+    "materias": [
+      {
+        "nombre": "ÁLGEBRA LINEAL",
+        "horas_semana": 5,
+        "profesor": "RUIZVELAZCO DE LA GARZA JUAN ANTONIO",
+        "horarios": [
+          {
+            "dia": "Martes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "12:00-13:00"
+          }
+        ]
+      }
+    ]
+  },
+  "Semestre 4": {
+    "semestre": 4,
+    "materias": [
+      {
+        "nombre": "ECUACIONES DIFERENCIALES",
+        "horas_semana": 5,
+        "profesor": "ESQUIVEL BRICEÑO CARLOS ROBERTO",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "17:00-18:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "14:00-15:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "17:00-18:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "17:00-18:00"
+          }
+        ]
+      },
+      {
+        "nombre": "ANÁLISIS DE CIRCUITOS ELÉCTRICOS",
+        "horas_semana": 6,
+        "profesor": "CERECERO NATALE LUIS FIDEL",
+        "horarios": [
+          {
+            "dia": "Miércoles",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "11:00-12:00"
+          }
+        ]
+      },
+      {
+        "nombre": "DINÁMICA",
+        "horas_semana": 4,
+        "profesor": "GONZALEZ ESPINOSA RENAN ANTONIO",
+        "horarios": [
+          {
+            "dia": "Miércoles",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "10:00-11:00"
+          }
+        ]
+      },
+      {
+        "nombre": "TERMODINÁMICA",
+        "horas_semana": 4,
+        "profesor": "VALENCIA RUIZ ROSA HILDA",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "11:00-12:00"
+          }
+        ]
+      },
+      {
+        "nombre": "MECÁNICA DE MATERIALES",
+        "horas_semana": 6,
+        "profesor": "GONZALEZ ESPINOSA RENAN ANTONIO",
+        "horarios": [
+          {
+            "dia": "Viernes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "7:00-8:00"
+          }
+        ]
+      }
+    ]
+  },
+  "Semestre 5": {
+    "semestre": 5,
+    "materias": [
+      {
+        "nombre": "DISEÑO MECÁNICO",
+        "horas_semana": 6,
+        "profesor": "CERECERO NATALE LUIS FIDEL",
+        "horarios": [
+          {
+            "dia": "Miércoles",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "7:00-8:00"
+          }
+        ]
+      },
+      {
+        "nombre": "VIBRACIONES MECÁNICAS",
+        "horas_semana": 5,
+        "profesor": "FAJARDO PULIDO GUSTAVO ADOLFO",
+        "horarios": [
+          {
+            "dia": "Martes",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "13:00-14:00"
+          }
+        ]
+      },
+      {
+        "nombre": "MÁQUINAS ELÉCTRICAS",
+        "horas_semana": 5,
+        "profesor": "MORALES RAMÍREZ CÉSAR",
+        "horarios": [
+          {
+            "dia": "Viernes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "13:00-14:00"
+          }
+        ]
+      },
+      {
+        "nombre": "ELECTRÓNICA ANALÓGICA",
+        "horas_semana": 6,
+        "profesor": "VERDE GÓMEZ JOSÉ YSMAEL",
+        "horarios": [
+          {
+            "dia": "Lunes",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "11:00-12:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "11:00-12:00"
+          }
+        ]
+      }
+    ]
+  },
+  "Semestre 8": {
+    "semestre": 8,
+    "materias": [
+      {
+        "nombre": "IOT",
+        "horas_semana": 5,
+        "profesor": "ESQUIVEL BRICEÑO CARLOS ROBERTO",
+        "horarios": [
+          {
+            "dia": "Miércoles",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Martes",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "17:00-18:00"
+          }
+        ]
+      }
+    ]
+  },
+  "Semestre 9": {
+    "semestre": 9,
+    "materias": [
+      {
+        "nombre": "ROBÓTICA",
+        "horas_semana": 6,
+        "profesor": "CERECERO NATALE LUIS FIDEL",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Lunes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "13:00-14:00"
+          }
+        ]
+      },
+      {
+        "nombre": "CONTROL NEURODIFUSO",
+        "horas_semana": 5,
+        "profesor": "CERECERO NATALE LUIS FIDEL",
+        "horarios": [
+          {
+            "dia": "Jueves",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "12:00-13:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Jueves",
+            "hora": "8:00-9:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "8:00-9:00"
+          }
+        ]
+      },
+      {
+        "nombre": "PROCESO DIGITAL DE SEÑALES II",
+        "horas_semana": 5,
+        "profesor": "CERECERO NATALE LUIS FIDEL",
+        "horarios": [
+          {
+            "dia": "Lunes",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "10:00-11:00"
+          },
+          {
+            "dia": "Viernes",
+            "hora": "13:00-14:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "7:00-8:00"
+          },
+          {
+            "dia": "Miércoles",
+            "hora": "10:00-11:00"
+          }
+        ]
+      }
+    ]
+  }
+}
